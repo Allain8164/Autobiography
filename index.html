@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<title>Autobiography</title>
+	</head>
+
+	<body>
+		<header class="header">
+			<a href="#home" class="logo">Allain</a>
+			<input type="checkbox" id="check">
+			<label for="check" class="icons">
+				<i class='bx bx-menu' id="menu-open"></i>
+				<i class='bx bx-x' id="menu-close"></i>
+			</label>
+			<nav class="navbar">
+				<a href="#home" style="--i:0;" >Home</a>
+				<a href="#timeline" style="--i:1;" >Profile</a>
+				<a href="#projects" style="--i:2;" >Educational Background</a>
+				<a href="#hobbies" style="--i:3;" >Hobbies</a>
+				<a href="#contactMe" style="--i:4;" >Contact Me</a>
+			</nav>
+	</header>
+
+	<section class="light-container" id="home">
+			
+		<div class="wrapper-home">
+			<div class="wrapper-leftHome">
+				<div class="wrapper-userImg">
+					<img src="./images/gradpic.jpg" alt="user-img1.png">
+				</div>
+				
+				<div class="wrapper-userDetails">
+					
+					<div class="title">
+					<h3>Allain Ralph Legaspi</h3>
+					<h4>Gwapo sa TSS</h4>
+					</div>
+				</div>
+
+				
+			</div>
+
+			<div class="wrapper-rightHome">
+				<div class="early-life">
+					<p>
+						Hi! I am Allain, 20 years old. I am a second-year BSIT student at University of Southern Philippines Foundation. I am an aspiring website developer. 
+				</div>
+				<div class="buttons">
+					<a class="btn" href="https://www.facebook.com/Allain004" target="_blank">
+						<p>Facebook</p>
+					</a>
+					<a class="btn" href="https://www.instagram.com/allainlegaspi/" target="_blank">
+						<p>Instagram</p>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="dark-container" id="timeline">
+
+		<div class="wrapper-timeline">
+
+			<div class="wrapper-title">
+				<h1 id="timeline-header">PROFILE</h1>
+			</div>
+			
+			<div class="wrapper-row-timelineCard">
+				<div id="year1" class="timelineCard">
+					<h4 >2004</h4>
+					<h3><i class='bx bx-chevron-down' ></i></h3>
+				</div>
+				<div id="year1modal" class="modal">
+					<div class="modalContent">
+						<span id="year1close"><i class='bx bx-x'></i></span>
+						<h4>2004</h4>
+						<h3>August 16, 2004</h3>
+						<p>On this day I was born as the 4th child in our family.</p>
+					</div>
+				</div>
+				
+				<div id="year2" class="timelineCard">
+					<h4>2011</h4>
+					<h3><i class='bx bx-chevron-down' ></i></h3>
+				</div>
+				<div id="year2modal" class="modal">
+					<div class="modalContent">
+						<span id="year2close" ><i class='bx bx-x'></i></span>
+						<h4>2011</h4>
+						<h3>The first foot at school</h3>
+						<p>I started school for the first time.</p>
+					</div>
+				</div>
+
+				<div id="year3" class="timelineCard">
+					<h4>2016</h4>
+					<h3><i class='bx bx-chevron-down' ></i></h3>
+				</div>
+				<div id="year3modal" class="modal">
+					<div class="modalContent">
+						<span id="year3close"><i class='bx bx-x'></i></span>
+						<h4>2016</h4>
+						<h3>Elementary Graduate</h3>
+						<p>I graduated at elementary. Looking back, it was one of the greatest achievements of my life. </p>
+					</div>
+				</div>
+
+				<div id="year4" class="timelineCard">
+					<h4>2020</h4>
+					<h3><i class='bx bx-chevron-down' ></i></h3>
+				</div>
+				<div id="year4modal" class="modal">
+					<div class="modalContent">
+						<span id="year4close"><i class='bx bx-x'></i></span>
+						<h4>2020</h4>
+						<h3>Moving Up Ceremony</h3>
+						<p>As our moving up ceremony took place, I was ready to experience new things at Senior High School because most people said that SHS will be the best years of your life.</p>
+					</div>
+				</div>
+
+				<div id="year5" class="timelineCard">
+					<h4>2022</h4>
+					<h3><i class='bx bx-chevron-down' ></i></h3>
+				</div>
+				<div id="year5modal" class="modal">
+					<div class="modalContent">
+						<span id="year5close"><i class='bx bx-x'></i></span>
+						<h4>2022</h4>
+						<h3>SHS Graduation</h3>
+						<p> I graduated in Senior High School. It was one of the happiest moments of my life, and I was ready to face the real battle at college.</p>
+					</div>
+				</div>
+
+				<div id="year6" class="timelineCard">
+					<h4>2023</h4>
+					<h3><i class='bx bx-chevron-down' ></i></h3>
+				</div>
+				<div id="year6modal" class="modal">
+					<div class="modalContent">
+						<span id="year6close"><i class='bx bx-x'></i></span>
+						<h4>2023</h4>
+						<h3>College Freshman</h3>
+						<p>I enrolled at USPF since it was the fastest school to accept my application. I chose BSIT as my college program since I was always interested in technology.</p>
+						</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="light-container" id="projects">
+		<div class="wrapper-projects">
+			<div class="wrapper-title">
+				<h1>Educational Background</h1>
+			</div>
+			<div class="project-containerDown">
+				<div class="proj-group-title">
+					<h2>through the years</h2>
+				</div>
+				<div class="project-group">
+					<div class="project-card-container">
+						<div class="card">
+							<div class="card-face card-front">
+								<p><b>Elementary</b></p>
+								<div class="wrapper-cardImg">
+									<img src="./images/chs.jpg" alt="logo-chs">
+								</div>
+							</div>
+							<div class="card-face card-back">
+								<p><i>Graduated</i></p>
+								<p class="proj-desc">Graduated as a 6th honor student.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="project-card-container">
+						<div class="card">
+							<div class="card-face card-front">
+								<p><b>JHS</b></p>
+								<div class="wrapper-cardImg">
+									<img src="./images/casay-nhs.jpg" alt="My Image">
+								</div>
+							</div>
+							<div class="card-face card-back">
+								<p><i>Graduated (Moving Up)</i></p>
+								<p class="proj-desc">Graduated as a student with excellence award.</p>
+							</div>
+						</div>			
+					</div>
+
+					<div class="project-card-container">
+						<div class="card">
+							<div class="card-face card-front">
+								<p><b>SHS</b></p>
+								<div class="wrapper-cardImg">
+									<img src="./images/dnhs.jpg" alt="logo-dnhs">
+								</div>
+							</div>
+							<div class="card-face card-back">
+								<p><i>Graduated</i></p>
+								<p class="proj-desc">Graduated in SHS as a student with honors.</p>
+							</div>
+						</div>			
+					</div>
+				</div>
+
+			</div>
+			
+		</div>	
+	</section>
+
+
+
+	<section class="dark-container" id="hobbies">'
+		<div class="wrapper-hobbies">
+			<div class="wrapper-title">
+				<h1>INTERESTS</h1>
+			</div>
+
+			<div class="carousel">
+				<div class="carousel-inner">
+
+					<div class="slide">
+						<div class="hobby-card">
+							<div class="hobby-card-title">
+								<h2>ANIME</h2>
+							</div>
+						</div>
+						<div class="wrapper-content-hobby-card">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/xmbxe0Jtxmc" frameborder="0" allowfullscreen></iframe>
+							<p><b>ONE PIECE</b></p>
+							<p>This is one of my top favorite anime. I just started watching last 2020 and was amaze in every single arc. I really love how Eiichiro Oda, the creator of One Piece, foreshadow events in the ploy. Watch the hyped video, a hundred percent recommended! </p>
+						</div>
+					</div>
+
+					<div class="slide">
+						<div class="hobby-card">
+							<div class="hobby-card-title">
+								<h2>Gaming</h2>
+							</div>
+							<div class="wrapper-content-hobby-card">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/CzON8YDx32E" frameborder="0" allowfullscreen></iframe>
+								<p><b>AverageJonas</b></p>
+								<p>AverageJonas is a Valorant Player that mains Sova. He was my idol in creating trickshots.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="slide">
+						<div class="hobby-card">
+							<div class="hobby-card-title">
+								<h2>Photography</h2>
+							</div>
+							<div class="wrapper-content-hobby-card">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/j5r_eotJQg8" frameborder="0" allowfullscreen></iframe>
+								<p><b>FroKnowsPhoto</b></p>
+								<p>FroKnowsPhoto is a photographer I look up to in my hobby as a photojournalist/photographer.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<a class="prev" onclick="plusSlides(-1)"><i class='bx bxs-left-arrow'></i></a>
+				<a class="next" onclick="plusSlides(1)"><i class='bx bxs-right-arrow' ></i></a>
+		</div>
+
+	</section>
+
+	<section class="light-container" id="contactMe" >
+		<div class="wrapper-contactMe">
+			<div class="contact-header">
+				<h2>CONTACT ME</h2>
+				<p>
+					Got a question? I'd love to hear from you. Send me a message and we'll respond as soon as possible.
+				</p>
+			</div>
+			<form>
+				<label for="name">NAME:</label>
+				<input type="text" name="name" id="name" placeholder="NAME" required>
+				<label for="email">EMAIL ADDRESS:</label>
+				<input type="email" name="email" id="email" placeholder="EMAIL@DOMAIN.COM" required>
+				<label for="agenda">AGENDA:</label>
+				<select name="agenda" id="agenda" required>
+					<option value="Inquiry">INQUIRY</option>
+					<option value="Project Proposal">FOLLOW-UP</option>
+					<option value="Others">OTHERS</option>
+				</select>
+				<label for="message">MESSAGE:</label>
+				<textarea name="message" id="message" cols="30" rows="5" placeholder="WHAT CAN I DO FOR YOU?"></textarea>
+				
+				 <div class="submit-wrapper">
+					<h2>SEND</h2>
+					<i class='bx bx-paper-plane'></i>
+				</div>
+			</form>
+		</div>
+	</section>
+		
+	<script src="js/script.js"></script>
+	</body>
+</html>
